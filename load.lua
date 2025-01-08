@@ -127,6 +127,10 @@ function promptRet.create(title, description, primary, secondary, callback)
 	prompt.Policy.Notice.Text = description
 	prompt.Policy.Actions.Primary.Title.Text = primary
 	prompt.Policy.Actions.Secondary.Title.Text = secondary
+
+	-- Customize colors
+
+	prompt.Policy.BackgroundColor3 = Color3.fromRGB(16, 21, 31)
 	
 	-- Handle the button clicks and trigger the callback
 	prompt.Policy.Actions.Primary.Interact.MouseButton1Click:Connect(function()
