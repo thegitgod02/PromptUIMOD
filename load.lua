@@ -130,7 +130,7 @@ function promptRet.create(title, description, primary, secondary, callback)
 
 	-- Customize colors
 
-	prompt.Policy.BackgroundColor3 = Color3.fromRGB(0, 191, 255)
+	prompt.Policy.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
 	
 	-- Handle the button clicks and trigger the callback
 	prompt.Policy.Actions.Primary.Interact.MouseButton1Click:Connect(function()
