@@ -27,7 +27,7 @@ local function open(prompt)
 	debounce = true
 	prompt.Policy.Size = UDim2.new(0, 450, 0, 120)
 
-	prompt.Policy.BackgroundTransparency = 1
+	prompt.Policy.BackgroundTransparency = 0.7
 	prompt.Policy.Shadow.Image.ImageTransparency = 1
 	prompt.Policy.Title.TextTransparency = 1
 	prompt.Policy.Notice.TextTransparency = 1
