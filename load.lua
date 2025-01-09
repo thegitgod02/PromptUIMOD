@@ -130,7 +130,7 @@ function promptRet.create(title, description, primary, secondary, callback)
 
 	-- Customize colors
 
-	prompt.Policy.BackgroundColor3 = Color3.fromRGB(200, 200, 200) -- background color
+	prompt.Policy.BackgroundColor3 = Color3.fromRGB(255, 255, 255) -- background color
 	prompt.Policy.Title.TextColor3 = Color3.fromRGB(0, 0, 0)
 	prompt.Policy.Notice.TextColor3 = Color3.fromRGB(0, 0, 0)
 	prompt.Policy.Actions.Primary.Title.TextColor3 = Color3.fromRGB(0, 0, 0)
